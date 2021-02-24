@@ -148,15 +148,35 @@ const updateSelection = () => {
 };
 
 const updateDepartmentQuestions = () => {
-    const query = connection.query(
-        'UPDATE products SET ? WHERE ?',
-        [
-            {
-                
-            }
-        ]
-    )
+    const updateDepQuestions = [
+        {
+            message: 'What is the ID of the column you would like to edit?',
+            type: 'input',
+            name: 'depQuestion'
+        }
+    ]
 }
+
+const updateEmployeeQuestions = () => {
+    const updateDepQuestions = [
+        {
+            message: 'What is the ID of the column you would like to edit?',
+            type: 'input',
+            name: 'depQuestion'
+        }
+    ]
+}
+
+/*const updateDepartmentQuestions = () => {
+    const updateDepQuestions = [
+        {
+            message: 'What is the ID of the column you would like to edit?',
+            type: 'input',
+            name: 'depQuestion'
+        }
+    ]
+}
+*/
 //If the user decides to add to department table, this will ask the required questions to render a new department.
 const addDepartmentQuestions = () => {
  const addDepQuestions = [
