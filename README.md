@@ -24,6 +24,6 @@
   LinkedIn: RryanWilsonW
 
   ## Video
-  ![Screen Recording of Project]({data.linkToVideo})
+  ![Screen Recording of Project]({./Assets/video.gif})
 
   
